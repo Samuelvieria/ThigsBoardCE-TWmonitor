@@ -218,7 +218,9 @@
        LOGO / TÍTULO
        ========================================================= */
     .tb-login-content .login-logo{
-      max-width: 290px; /* <-- logo maior */
+      width: 400px !important; /* <-- logo maior */
+      height: 86px !important;
+      max-width: 90% !important;
       margin: 6px auto 10px;
       display: block;
       filter: drop-shadow(0 16px 26px rgba(0,0,0,.40));
@@ -317,7 +319,7 @@
       letter-spacing: .2px;
       box-shadow: var(--tw-shadow-1);
       transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
-      background: linear-gradient(135deg, #0099cc, #006caf, #00326f) !important;
+      background: linear-gradient(135deg, #a8a6aa, var(--tw-grey), #6e6c70) !important;
       color: var(--tw-white) !important;
     }
 
