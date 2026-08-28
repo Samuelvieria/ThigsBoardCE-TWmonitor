@@ -66,7 +66,7 @@ export class HomeComponent extends PageComponent implements AfterViewInit, OnIni
   sidenavCollapsed = signal(false);
   menuCollapsed= computed(() => this.sidenavDesktop() && this.sidenavCollapsed());
 
-  logo = 'assets/twmonitor_logo.svg';
+  logo = 'assets/twmonitor_logo_white.svg';
   collapsedLogo =  'assets/twmonitor_logo_collapsed.svg';
 
   @ViewChild('sidenav')
